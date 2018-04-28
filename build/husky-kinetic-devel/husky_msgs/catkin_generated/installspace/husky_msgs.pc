@@ -1,0 +1,8 @@
+prefix=/home/adam/Robotic-Treasure-Hunt-master/install
+
+Name: husky_msgs
+Description: Description of husky_msgs
+Version: 0.2.7
+Cflags: -I/home/adam/Robotic-Treasure-Hunt-master/install/include
+Libs: -L/home/adam/Robotic-Treasure-Hunt-master/install/lib 
+Requires: std_msgs message_runtime

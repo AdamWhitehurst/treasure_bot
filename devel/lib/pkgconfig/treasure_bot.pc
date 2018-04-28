@@ -1,0 +1,8 @@
+prefix=/home/adam/Robotic-Treasure-Hunt-master/devel
+
+Name: treasure_bot
+Description: Description of treasure_bot
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/adam/Robotic-Treasure-Hunt-master/devel/lib 
+Requires: 
