@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"treasure_bot\"
 
-CXX_INCLUDES = -I/home/adam/Robotic-Treasure-Hunt-master/devel/include -I/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/adam/treasure_bot/devel/include -I/home/adam/treasure_bot/src/logical_camera_plugin/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

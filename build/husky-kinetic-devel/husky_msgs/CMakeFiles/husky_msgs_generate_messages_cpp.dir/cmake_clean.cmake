@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/husky_msgs_generate_messages_cpp"
-  "/home/adam/Robotic-Treasure-Hunt-master/devel/include/husky_msgs/HuskyStatus.h"
+  "/home/adam/treasure_bot/devel/include/husky_msgs/HuskyStatus.h"
 )
 
 # Per-language clean rules from dependency scanning.

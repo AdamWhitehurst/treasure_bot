@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/adam/Robotic-Treasure-Hunt-master/devel/include/logical_camera_plugin/logicalImage.h
+/home/adam/treasure_bot/devel/include/logical_camera_plugin/logicalImage.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include/logical_camera_plugin/logical_camera_plugin.hh
+/home/adam/treasure_bot/src/logical_camera_plugin/include/logical_camera_plugin/logical_camera_plugin.hh
 string
 -
 vector
@@ -34,35 +34,35 @@ unordered_map
 sdf/sdf.hh
 -
 gazebo/math/Pose.hh
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/math/Pose.hh
+/home/adam/treasure_bot/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/math/Pose.hh
 gazebo/common/Plugin.hh
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/common/Plugin.hh
+/home/adam/treasure_bot/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/common/Plugin.hh
 gazebo/msgs/logical_camera_image.pb.h
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/msgs/logical_camera_image.pb.h
+/home/adam/treasure_bot/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/msgs/logical_camera_image.pb.h
 gazebo/transport/Node.hh
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/transport/Node.hh
+/home/adam/treasure_bot/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/transport/Node.hh
 gazebo/transport/Subscriber.hh
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/transport/Subscriber.hh
+/home/adam/treasure_bot/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/transport/Subscriber.hh
 gazebo/transport/TransportTypes.hh
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/transport/TransportTypes.hh
+/home/adam/treasure_bot/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/transport/TransportTypes.hh
 gazebo/physics/PhysicsTypes.hh
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/physics/PhysicsTypes.hh
+/home/adam/treasure_bot/src/logical_camera_plugin/include/logical_camera_plugin/gazebo/physics/PhysicsTypes.hh
 ros/ros.h
 -
 tf/transform_broadcaster.h
 -
 ros/callback_queue.h
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include/logical_camera_plugin/ros/callback_queue.h
+/home/adam/treasure_bot/src/logical_camera_plugin/include/logical_camera_plugin/ros/callback_queue.h
 ros/subscribe_options.h
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include/logical_camera_plugin/ros/subscribe_options.h
+/home/adam/treasure_bot/src/logical_camera_plugin/include/logical_camera_plugin/ros/subscribe_options.h
 std_msgs/Float32.h
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include/logical_camera_plugin/std_msgs/Float32.h
+/home/adam/treasure_bot/src/logical_camera_plugin/include/logical_camera_plugin/std_msgs/Float32.h
 geometry_msgs/Twist.h
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include/logical_camera_plugin/geometry_msgs/Twist.h
+/home/adam/treasure_bot/src/logical_camera_plugin/include/logical_camera_plugin/geometry_msgs/Twist.h
 
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/src/logical_camera_plugin.cpp
+/home/adam/treasure_bot/src/logical_camera_plugin/src/logical_camera_plugin.cpp
 logical_camera_plugin/logical_camera_plugin.hh
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/src/logical_camera_plugin/logical_camera_plugin.hh
+/home/adam/treasure_bot/src/logical_camera_plugin/src/logical_camera_plugin/logical_camera_plugin.hh
 gazebo/physics/Link.hh
 -
 gazebo/physics/Model.hh
@@ -74,9 +74,9 @@ gazebo/sensors/Sensor.hh
 gazebo/sensors/SensorManager.hh
 -
 std_msgs/String.h
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/src/std_msgs/String.h
+/home/adam/treasure_bot/src/logical_camera_plugin/src/std_msgs/String.h
 logical_camera_plugin/logicalImage.h
-/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/src/logical_camera_plugin/logicalImage.h
+/home/adam/treasure_bot/src/logical_camera_plugin/src/logical_camera_plugin/logicalImage.h
 sstream
 -
 string

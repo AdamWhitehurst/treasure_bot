@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/husky_msgs_generate_messages_py"
-  "/home/adam/Robotic-Treasure-Hunt-master/devel/lib/python2.7/dist-packages/husky_msgs/msg/_HuskyStatus.py"
-  "/home/adam/Robotic-Treasure-Hunt-master/devel/lib/python2.7/dist-packages/husky_msgs/msg/__init__.py"
+  "/home/adam/treasure_bot/devel/lib/python2.7/dist-packages/husky_msgs/msg/_HuskyStatus.py"
+  "/home/adam/treasure_bot/devel/lib/python2.7/dist-packages/husky_msgs/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

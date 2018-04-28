@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Robotic-Treasure-Hunt-master/src
+CMAKE_SOURCE_DIR = /home/adam/treasure_bot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
+CMAKE_BINARY_DIR = /home/adam/treasure_bot/build
 
 # Include any dependencies generated for this target.
 include logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/depend.make
@@ -58,17 +58,17 @@ include logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/progress.make
 include logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/flags.make
 
 logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.o: logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/flags.make
-logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/src/logical_camera_plugin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/src/logical_camera_plugin.cpp
+logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.o: /home/adam/treasure_bot/src/logical_camera_plugin/src/logical_camera_plugin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.o"
+	cd /home/adam/treasure_bot/build/logical_camera_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.o -c /home/adam/treasure_bot/src/logical_camera_plugin/src/logical_camera_plugin.cpp
 
 logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/src/logical_camera_plugin.cpp > CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.i
+	cd /home/adam/treasure_bot/build/logical_camera_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/logical_camera_plugin/src/logical_camera_plugin.cpp > CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.i
 
 logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/src/logical_camera_plugin.cpp -o CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.s
+	cd /home/adam/treasure_bot/build/logical_camera_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/logical_camera_plugin/src/logical_camera_plugin.cpp -o CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.s
 
 logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.o.requires:
 
@@ -88,181 +88,181 @@ logical_camera_plugin_OBJECTS = \
 # External object files for target logical_camera_plugin
 logical_camera_plugin_EXTERNAL_OBJECTS =
 
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/build.make
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libvision_reconfigure.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_utils.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_camera_utils.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_camera.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_multicamera.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_depth_camera.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_openni_kinect.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_gpu_laser.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_laser.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_block_laser.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_p3d.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_imu.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_imu_sensor.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_f3d.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_ft_sensor.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_bumper.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_template.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_projector.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_prosilica.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_force.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_joint_trajectory.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_joint_state_publisher.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_joint_pose_trajectory.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_diff_drive.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_tricycle_drive.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_skid_steer_drive.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_video.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_planar_move.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_range.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_vacuum_gripper.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libnodeletlib.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libbondcpp.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/liburdf.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libimage_transport.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/libPocoFoundation.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libcamera_info_manager.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libcamera_calibration_parsers.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_api_plugin.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_paths_plugin.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libroslib.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librospack.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libtf.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libtf2.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librostime.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libtf.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libtf2.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librostime.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so: logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/logical_camera_plugin.dir/link.txt --verbose=$(VERBOSE)
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.o
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/build.make
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libvision_reconfigure.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_utils.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_camera_utils.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_camera.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_multicamera.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_depth_camera.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_openni_kinect.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_gpu_laser.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_laser.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_block_laser.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_p3d.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_imu.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_imu_sensor.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_f3d.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_ft_sensor.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_bumper.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_template.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_projector.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_prosilica.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_force.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_joint_trajectory.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_joint_state_publisher.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_joint_pose_trajectory.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_diff_drive.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_tricycle_drive.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_skid_steer_drive.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_video.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_planar_move.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_range.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_vacuum_gripper.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libnodeletlib.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libbondcpp.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/liburdf.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libimage_transport.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/libPocoFoundation.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libcamera_info_manager.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libcamera_calibration_parsers.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_api_plugin.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libgazebo_ros_paths_plugin.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libroslib.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librospack.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libtf.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libtf2.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librostime.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libignition-math2.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libtf.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libtf2.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/librostime.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
+/home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so: logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so"
+	cd /home/adam/treasure_bot/build/logical_camera_plugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/logical_camera_plugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/build: /home/adam/Robotic-Treasure-Hunt-master/devel/lib/liblogical_camera_plugin.so
+logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/build: /home/adam/treasure_bot/devel/lib/liblogical_camera_plugin.so
 
 .PHONY : logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/build
 
@@ -271,10 +271,10 @@ logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/requires: logical_cam
 .PHONY : logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/requires
 
 logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/clean:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin && $(CMAKE_COMMAND) -P CMakeFiles/logical_camera_plugin.dir/cmake_clean.cmake
+	cd /home/adam/treasure_bot/build/logical_camera_plugin && $(CMAKE_COMMAND) -P CMakeFiles/logical_camera_plugin.dir/cmake_clean.cmake
 .PHONY : logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/clean
 
 logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/depend:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/Robotic-Treasure-Hunt-master/src /home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin /home/adam/Robotic-Treasure-Hunt-master/build /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/treasure_bot/src /home/adam/treasure_bot/src/logical_camera_plugin /home/adam/treasure_bot/build /home/adam/treasure_bot/build/logical_camera_plugin /home/adam/treasure_bot/build/logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/depend
 

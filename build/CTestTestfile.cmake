@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/adam/Robotic-Treasure-Hunt-master/src
-# Build directory: /home/adam/Robotic-Treasure-Hunt-master/build
+# Source directory: /home/adam/treasure_bot/src
+# Build directory: /home/adam/treasure_bot/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

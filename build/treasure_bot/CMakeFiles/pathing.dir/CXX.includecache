@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/adam/Robotic-Treasure-Hunt-master/src/treasure_bot/src/goal.h
+/home/adam/treasure_bot/src/treasure_bot/src/goal.h
 
-/home/adam/Robotic-Treasure-Hunt-master/src/treasure_bot/src/pathing.cpp
+/home/adam/treasure_bot/src/treasure_bot/src/pathing.cpp
 goal.h
-/home/adam/Robotic-Treasure-Hunt-master/src/treasure_bot/src/goal.h
+/home/adam/treasure_bot/src/treasure_bot/src/goal.h
 ros/ros.h
 -
 queue

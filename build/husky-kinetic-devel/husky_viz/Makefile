@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Robotic-Treasure-Hunt-master/src
+CMAKE_SOURCE_DIR = /home/adam/treasure_bot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
+CMAKE_BINARY_DIR = /home/adam/treasure_bot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_viz/CMakeFiles/progress.marks
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles 0
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adam/treasure_bot/build/CMakeFiles /home/adam/treasure_bot/build/husky-kinetic-devel/husky_viz/CMakeFiles/progress.marks
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/treasure_bot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/clean
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/preinstall
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/preinstall
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/rule:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/rule
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/rule
 .PHONY : husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ run_tests_husky_viz_roslaunch-check: husky-kinetic-devel/husky_viz/CMakeFiles/ru
 
 # fast build rule for target.
 run_tests_husky_viz_roslaunch-check/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/build
+	cd /home/adam/treasure_bot/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check.dir/build
 .PHONY : run_tests_husky_viz_roslaunch-check/fast
 
 # Convenience name for target.
 husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz.dir/rule:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz.dir/rule
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz.dir/rule
 .PHONY : husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ _run_tests_husky_viz: husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_
 
 # fast build rule for target.
 _run_tests_husky_viz/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz.dir/build
+	cd /home/adam/treasure_bot/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz.dir/build
 .PHONY : _run_tests_husky_viz/fast
 
 # Convenience name for target.
 husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check.dir/rule:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check.dir/rule
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check.dir/rule
 .PHONY : husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ _run_tests_husky_viz_roslaunch-check: husky-kinetic-devel/husky_viz/CMakeFiles/_
 
 # fast build rule for target.
 _run_tests_husky_viz_roslaunch-check/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check.dir/build
+	cd /home/adam/treasure_bot/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check.dir/build
 .PHONY : _run_tests_husky_viz_roslaunch-check/fast
 
 # Convenience name for target.
 husky-kinetic-devel/husky_viz/CMakeFiles/clean_test_results_husky_viz.dir/rule:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/clean_test_results_husky_viz.dir/rule
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/clean_test_results_husky_viz.dir/rule
 .PHONY : husky-kinetic-devel/husky_viz/CMakeFiles/clean_test_results_husky_viz.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ clean_test_results_husky_viz: husky-kinetic-devel/husky_viz/CMakeFiles/clean_tes
 
 # fast build rule for target.
 clean_test_results_husky_viz/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/clean_test_results_husky_viz.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/clean_test_results_husky_viz.dir/build
+	cd /home/adam/treasure_bot/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/clean_test_results_husky_viz.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/clean_test_results_husky_viz.dir/build
 .PHONY : clean_test_results_husky_viz/fast
 
 # Convenience name for target.
 husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz.dir/rule:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz.dir/rule
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz.dir/rule
 .PHONY : husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ run_tests_husky_viz: husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_vi
 
 # fast build rule for target.
 run_tests_husky_viz/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz.dir/build
+	cd /home/adam/treasure_bot/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz.dir/build
 .PHONY : run_tests_husky_viz/fast
 
 # Convenience name for target.
 husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check_launch.dir/rule:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check_launch.dir/rule
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check_launch.dir/rule
 .PHONY : husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check_launch.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ run_tests_husky_viz_roslaunch-check_launch: husky-kinetic-devel/husky_viz/CMakeF
 
 # fast build rule for target.
 run_tests_husky_viz_roslaunch-check_launch/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check_launch.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check_launch.dir/build
+	cd /home/adam/treasure_bot/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check_launch.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/run_tests_husky_viz_roslaunch-check_launch.dir/build
 .PHONY : run_tests_husky_viz_roslaunch-check_launch/fast
 
 # Convenience name for target.
 husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check_launch.dir/rule:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check_launch.dir/rule
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check_launch.dir/rule
 .PHONY : husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check_launch.dir/rule
 
 # Convenience name for target.
@@ -267,7 +267,7 @@ _run_tests_husky_viz_roslaunch-check_launch: husky-kinetic-devel/husky_viz/CMake
 
 # fast build rule for target.
 _run_tests_husky_viz_roslaunch-check_launch/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check_launch.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check_launch.dir/build
+	cd /home/adam/treasure_bot/build && $(MAKE) -f husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check_launch.dir/build.make husky-kinetic-devel/husky_viz/CMakeFiles/_run_tests_husky_viz_roslaunch-check_launch.dir/build
 .PHONY : _run_tests_husky_viz_roslaunch-check_launch/fast
 
 # Help Target
@@ -301,6 +301,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

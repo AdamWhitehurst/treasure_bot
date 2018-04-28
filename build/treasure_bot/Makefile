@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Robotic-Treasure-Hunt-master/src
+CMAKE_SOURCE_DIR = /home/adam/treasure_bot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
+CMAKE_BINARY_DIR = /home/adam/treasure_bot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles /home/adam/Robotic-Treasure-Hunt-master/build/treasure_bot/CMakeFiles/progress.marks
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles 0
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adam/treasure_bot/build/CMakeFiles /home/adam/treasure_bot/build/treasure_bot/CMakeFiles/progress.marks
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/treasure_bot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/clean
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/preinstall
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/preinstall
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 treasure_bot/CMakeFiles/goalInput.dir/rule:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/CMakeFiles/goalInput.dir/rule
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/CMakeFiles/goalInput.dir/rule
 .PHONY : treasure_bot/CMakeFiles/goalInput.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ goalInput: treasure_bot/CMakeFiles/goalInput.dir/rule
 
 # fast build rule for target.
 goalInput/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/goalInput.dir/build.make treasure_bot/CMakeFiles/goalInput.dir/build
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/goalInput.dir/build.make treasure_bot/CMakeFiles/goalInput.dir/build
 .PHONY : goalInput/fast
 
 # Convenience name for target.
 treasure_bot/CMakeFiles/planner.dir/rule:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/CMakeFiles/planner.dir/rule
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/CMakeFiles/planner.dir/rule
 .PHONY : treasure_bot/CMakeFiles/planner.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ planner: treasure_bot/CMakeFiles/planner.dir/rule
 
 # fast build rule for target.
 planner/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/planner.dir/build.make treasure_bot/CMakeFiles/planner.dir/build
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/planner.dir/build.make treasure_bot/CMakeFiles/planner.dir/build
 .PHONY : planner/fast
 
 # Convenience name for target.
 treasure_bot/CMakeFiles/pathing.dir/rule:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/CMakeFiles/pathing.dir/rule
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/CMakeFiles/pathing.dir/rule
 .PHONY : treasure_bot/CMakeFiles/pathing.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ pathing: treasure_bot/CMakeFiles/pathing.dir/rule
 
 # fast build rule for target.
 pathing/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/pathing.dir/build.make treasure_bot/CMakeFiles/pathing.dir/build
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/pathing.dir/build.make treasure_bot/CMakeFiles/pathing.dir/build
 .PHONY : pathing/fast
 
 # Convenience name for target.
 treasure_bot/CMakeFiles/treasureOutput.dir/rule:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/CMakeFiles/treasureOutput.dir/rule
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 treasure_bot/CMakeFiles/treasureOutput.dir/rule
 .PHONY : treasure_bot/CMakeFiles/treasureOutput.dir/rule
 
 # Convenience name for target.
@@ -222,7 +222,7 @@ treasureOutput: treasure_bot/CMakeFiles/treasureOutput.dir/rule
 
 # fast build rule for target.
 treasureOutput/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/treasureOutput.dir/build.make treasure_bot/CMakeFiles/treasureOutput.dir/build
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/treasureOutput.dir/build.make treasure_bot/CMakeFiles/treasureOutput.dir/build
 .PHONY : treasureOutput/fast
 
 src/goalInput.o: src/goalInput.cpp.o
@@ -231,7 +231,7 @@ src/goalInput.o: src/goalInput.cpp.o
 
 # target to build an object file
 src/goalInput.cpp.o:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/goalInput.dir/build.make treasure_bot/CMakeFiles/goalInput.dir/src/goalInput.cpp.o
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/goalInput.dir/build.make treasure_bot/CMakeFiles/goalInput.dir/src/goalInput.cpp.o
 .PHONY : src/goalInput.cpp.o
 
 src/goalInput.i: src/goalInput.cpp.i
@@ -240,7 +240,7 @@ src/goalInput.i: src/goalInput.cpp.i
 
 # target to preprocess a source file
 src/goalInput.cpp.i:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/goalInput.dir/build.make treasure_bot/CMakeFiles/goalInput.dir/src/goalInput.cpp.i
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/goalInput.dir/build.make treasure_bot/CMakeFiles/goalInput.dir/src/goalInput.cpp.i
 .PHONY : src/goalInput.cpp.i
 
 src/goalInput.s: src/goalInput.cpp.s
@@ -249,7 +249,7 @@ src/goalInput.s: src/goalInput.cpp.s
 
 # target to generate assembly for a file
 src/goalInput.cpp.s:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/goalInput.dir/build.make treasure_bot/CMakeFiles/goalInput.dir/src/goalInput.cpp.s
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/goalInput.dir/build.make treasure_bot/CMakeFiles/goalInput.dir/src/goalInput.cpp.s
 .PHONY : src/goalInput.cpp.s
 
 src/pathing.o: src/pathing.cpp.o
@@ -258,7 +258,7 @@ src/pathing.o: src/pathing.cpp.o
 
 # target to build an object file
 src/pathing.cpp.o:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/pathing.dir/build.make treasure_bot/CMakeFiles/pathing.dir/src/pathing.cpp.o
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/pathing.dir/build.make treasure_bot/CMakeFiles/pathing.dir/src/pathing.cpp.o
 .PHONY : src/pathing.cpp.o
 
 src/pathing.i: src/pathing.cpp.i
@@ -267,7 +267,7 @@ src/pathing.i: src/pathing.cpp.i
 
 # target to preprocess a source file
 src/pathing.cpp.i:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/pathing.dir/build.make treasure_bot/CMakeFiles/pathing.dir/src/pathing.cpp.i
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/pathing.dir/build.make treasure_bot/CMakeFiles/pathing.dir/src/pathing.cpp.i
 .PHONY : src/pathing.cpp.i
 
 src/pathing.s: src/pathing.cpp.s
@@ -276,7 +276,7 @@ src/pathing.s: src/pathing.cpp.s
 
 # target to generate assembly for a file
 src/pathing.cpp.s:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/pathing.dir/build.make treasure_bot/CMakeFiles/pathing.dir/src/pathing.cpp.s
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/pathing.dir/build.make treasure_bot/CMakeFiles/pathing.dir/src/pathing.cpp.s
 .PHONY : src/pathing.cpp.s
 
 src/planner.o: src/planner.cpp.o
@@ -285,7 +285,7 @@ src/planner.o: src/planner.cpp.o
 
 # target to build an object file
 src/planner.cpp.o:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/planner.dir/build.make treasure_bot/CMakeFiles/planner.dir/src/planner.cpp.o
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/planner.dir/build.make treasure_bot/CMakeFiles/planner.dir/src/planner.cpp.o
 .PHONY : src/planner.cpp.o
 
 src/planner.i: src/planner.cpp.i
@@ -294,7 +294,7 @@ src/planner.i: src/planner.cpp.i
 
 # target to preprocess a source file
 src/planner.cpp.i:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/planner.dir/build.make treasure_bot/CMakeFiles/planner.dir/src/planner.cpp.i
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/planner.dir/build.make treasure_bot/CMakeFiles/planner.dir/src/planner.cpp.i
 .PHONY : src/planner.cpp.i
 
 src/planner.s: src/planner.cpp.s
@@ -303,7 +303,7 @@ src/planner.s: src/planner.cpp.s
 
 # target to generate assembly for a file
 src/planner.cpp.s:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/planner.dir/build.make treasure_bot/CMakeFiles/planner.dir/src/planner.cpp.s
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/planner.dir/build.make treasure_bot/CMakeFiles/planner.dir/src/planner.cpp.s
 .PHONY : src/planner.cpp.s
 
 src/treasureOutput.o: src/treasureOutput.cpp.o
@@ -312,7 +312,7 @@ src/treasureOutput.o: src/treasureOutput.cpp.o
 
 # target to build an object file
 src/treasureOutput.cpp.o:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/treasureOutput.dir/build.make treasure_bot/CMakeFiles/treasureOutput.dir/src/treasureOutput.cpp.o
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/treasureOutput.dir/build.make treasure_bot/CMakeFiles/treasureOutput.dir/src/treasureOutput.cpp.o
 .PHONY : src/treasureOutput.cpp.o
 
 src/treasureOutput.i: src/treasureOutput.cpp.i
@@ -321,7 +321,7 @@ src/treasureOutput.i: src/treasureOutput.cpp.i
 
 # target to preprocess a source file
 src/treasureOutput.cpp.i:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/treasureOutput.dir/build.make treasure_bot/CMakeFiles/treasureOutput.dir/src/treasureOutput.cpp.i
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/treasureOutput.dir/build.make treasure_bot/CMakeFiles/treasureOutput.dir/src/treasureOutput.cpp.i
 .PHONY : src/treasureOutput.cpp.i
 
 src/treasureOutput.s: src/treasureOutput.cpp.s
@@ -330,7 +330,7 @@ src/treasureOutput.s: src/treasureOutput.cpp.s
 
 # target to generate assembly for a file
 src/treasureOutput.cpp.s:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f treasure_bot/CMakeFiles/treasureOutput.dir/build.make treasure_bot/CMakeFiles/treasureOutput.dir/src/treasureOutput.cpp.s
+	cd /home/adam/treasure_bot/build && $(MAKE) -f treasure_bot/CMakeFiles/treasureOutput.dir/build.make treasure_bot/CMakeFiles/treasureOutput.dir/src/treasureOutput.cpp.s
 .PHONY : src/treasureOutput.cpp.s
 
 # Help Target
@@ -373,6 +373,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

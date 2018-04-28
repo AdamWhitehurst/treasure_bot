@@ -1,8 +1,8 @@
-# Install script for directory: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_navigation
+# Install script for directory: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/adam/Robotic-Treasure-Hunt-master/install")
+  set(CMAKE_INSTALL_PREFIX "/home/adam/treasure_bot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,25 +33,25 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_navigation/catkin_generated/installspace/husky_navigation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_navigation/catkin_generated/installspace/husky_navigation.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_navigation/cmake" TYPE FILE FILES
-    "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_navigation/catkin_generated/installspace/husky_navigationConfig.cmake"
-    "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_navigation/catkin_generated/installspace/husky_navigationConfig-version.cmake"
+    "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_navigation/catkin_generated/installspace/husky_navigationConfig.cmake"
+    "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_navigation/catkin_generated/installspace/husky_navigationConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_navigation" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_navigation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_navigation" TYPE FILE FILES "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_navigation/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_navigation" TYPE DIRECTORY FILES
-    "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_navigation/config"
-    "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_navigation/launch"
-    "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_navigation/maps"
+    "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_navigation/config"
+    "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_navigation/launch"
+    "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_navigation/maps"
     )
 endif()
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/logical_camera_plugin_generate_messages_lisp"
-  "/home/adam/Robotic-Treasure-Hunt-master/devel/share/common-lisp/ros/logical_camera_plugin/msg/logicalImage.lisp"
+  "/home/adam/treasure_bot/devel/share/common-lisp/ros/logical_camera_plugin/msg/logicalImage.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

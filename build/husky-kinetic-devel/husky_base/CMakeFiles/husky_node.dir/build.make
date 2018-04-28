@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Robotic-Treasure-Hunt-master/src
+CMAKE_SOURCE_DIR = /home/adam/treasure_bot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
+CMAKE_BINARY_DIR = /home/adam/treasure_bot/build
 
 # Include any dependencies generated for this target.
 include husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/depend.make
@@ -58,17 +58,17 @@ include husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/progress.make
 include husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/flags.make
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_base.cpp.o: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/flags.make
-husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_base.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/husky_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_base.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/husky_base.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/husky_base.cpp
+husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_base.cpp.o: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/husky_base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_base.cpp.o"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/husky_base.cpp.o -c /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/husky_base.cpp
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_base.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/husky_node.dir/src/husky_base.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/husky_base.cpp > CMakeFiles/husky_node.dir/src/husky_base.cpp.i
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/husky_base.cpp > CMakeFiles/husky_node.dir/src/husky_base.cpp.i
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/husky_node.dir/src/husky_base.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/husky_base.cpp -o CMakeFiles/husky_node.dir/src/husky_base.cpp.s
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/husky_base.cpp -o CMakeFiles/husky_node.dir/src/husky_base.cpp.s
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_base.cpp.o.requires:
 
@@ -82,17 +82,17 @@ husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_base.cpp.o.pr
 
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/flags.make
-husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/husky_hardware.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/husky_hardware.cpp
+husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/husky_hardware.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o -c /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/husky_hardware.cpp
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_hardware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/husky_node.dir/src/husky_hardware.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/husky_hardware.cpp > CMakeFiles/husky_node.dir/src/husky_hardware.cpp.i
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/husky_hardware.cpp > CMakeFiles/husky_node.dir/src/husky_hardware.cpp.i
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_hardware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/husky_node.dir/src/husky_hardware.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/husky_hardware.cpp -o CMakeFiles/husky_node.dir/src/husky_hardware.cpp.s
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/husky_hardware.cpp -o CMakeFiles/husky_node.dir/src/husky_hardware.cpp.s
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o.requires:
 
@@ -106,17 +106,17 @@ husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_hardware.cpp.
 
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/flags.make
-husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/husky_diagnostics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/husky_diagnostics.cpp
+husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/husky_diagnostics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o -c /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/husky_diagnostics.cpp
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/husky_diagnostics.cpp > CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.i
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/husky_diagnostics.cpp > CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.i
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/husky_diagnostics.cpp -o CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.s
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/husky_diagnostics.cpp -o CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.s
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o.requires:
 
@@ -130,17 +130,17 @@ husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_diagnostics.c
 
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/flags.make
-husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy_wrapper.cpp
+husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy_wrapper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o -c /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy_wrapper.cpp
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy_wrapper.cpp > CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.i
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy_wrapper.cpp > CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.i
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy_wrapper.cpp -o CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.s
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy_wrapper.cpp -o CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.s
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o.requires:
 
@@ -163,55 +163,55 @@ husky_node_OBJECTS = \
 # External object files for target husky_node
 husky_node_EXTERNAL_OBJECTS =
 
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_base.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/build.make
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libcontroller_manager.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/librealtime_tools.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libclass_loader.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/libPocoFoundation.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libroslib.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/librospack.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/librostime.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/husky_node.dir/link.txt --verbose=$(VERBOSE)
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_base.cpp.o
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_hardware.cpp.o
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/husky_diagnostics.cpp.o
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/src/horizon_legacy_wrapper.cpp.o
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/build.make
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /home/adam/treasure_bot/devel/lib/libhorizon_legacy.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libcontroller_manager.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/librealtime_tools.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libclass_loader.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/libPocoFoundation.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libroslib.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/librospack.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/librostime.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/adam/treasure_bot/devel/lib/husky_base/husky_node: husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/adam/treasure_bot/devel/lib/husky_base/husky_node"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/husky_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/build: /home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node
+husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/build: /home/adam/treasure_bot/devel/lib/husky_base/husky_node
 
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/build
 
@@ -223,10 +223,10 @@ husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/requires: husky-kinetic
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/requires
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/clean:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && $(CMAKE_COMMAND) -P CMakeFiles/husky_node.dir/cmake_clean.cmake
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && $(CMAKE_COMMAND) -P CMakeFiles/husky_node.dir/cmake_clean.cmake
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/clean
 
 husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/depend:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/Robotic-Treasure-Hunt-master/src /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base /home/adam/Robotic-Treasure-Hunt-master/build /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/treasure_bot/src /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base /home/adam/treasure_bot/build /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/husky_node.dir/depend
 

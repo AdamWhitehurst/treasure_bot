@@ -1,8 +1,8 @@
-prefix=/home/adam/Robotic-Treasure-Hunt-master/devel
+prefix=/home/adam/treasure_bot/devel
 
 Name: husky_msgs
 Description: Description of husky_msgs
 Version: 0.2.7
-Cflags: -I/home/adam/Robotic-Treasure-Hunt-master/devel/include
-Libs: -L/home/adam/Robotic-Treasure-Hunt-master/devel/lib 
+Cflags: -I/home/adam/treasure_bot/devel/include
+Libs: -L/home/adam/treasure_bot/devel/lib 
 Requires: std_msgs message_runtime

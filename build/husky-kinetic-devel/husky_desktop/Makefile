@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Robotic-Treasure-Hunt-master/src
+CMAKE_SOURCE_DIR = /home/adam/treasure_bot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
+CMAKE_BINARY_DIR = /home/adam/treasure_bot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_desktop/CMakeFiles/progress.marks
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_desktop/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles 0
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adam/treasure_bot/build/CMakeFiles /home/adam/treasure_bot/build/husky-kinetic-devel/husky_desktop/CMakeFiles/progress.marks
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_desktop/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/treasure_bot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_desktop/clean
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_desktop/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_desktop/preinstall
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_desktop/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_desktop/preinstall
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_desktop/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 husky-kinetic-devel/husky_desktop/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_desktop/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /home/adam/treasure_bot/build && $(MAKE) -f CMakeFiles/Makefile2 husky-kinetic-devel/husky_desktop/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : husky-kinetic-devel/husky_desktop/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ _catkin_empty_exported_target: husky-kinetic-devel/husky_desktop/CMakeFiles/_cat
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(MAKE) -f husky-kinetic-devel/husky_desktop/CMakeFiles/_catkin_empty_exported_target.dir/build.make husky-kinetic-devel/husky_desktop/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /home/adam/treasure_bot/build && $(MAKE) -f husky-kinetic-devel/husky_desktop/CMakeFiles/_catkin_empty_exported_target.dir/build.make husky-kinetic-devel/husky_desktop/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

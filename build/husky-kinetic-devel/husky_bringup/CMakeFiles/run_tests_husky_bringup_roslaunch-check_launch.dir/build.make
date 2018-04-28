@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Robotic-Treasure-Hunt-master/src
+CMAKE_SOURCE_DIR = /home/adam/treasure_bot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
+CMAKE_BINARY_DIR = /home/adam/treasure_bot/build
 
 # Utility rule file for run_tests_husky_bringup_roslaunch-check_launch.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
 include husky-kinetic-devel/husky_bringup/CMakeFiles/run_tests_husky_bringup_roslaunch-check_launch.dir/progress.make
 
 husky-kinetic-devel/husky_bringup/CMakeFiles/run_tests_husky_bringup_roslaunch-check_launch:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_bringup && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/adam/Robotic-Treasure-Hunt-master/build/test_results/husky_bringup/roslaunch-check_launch.xml /usr/bin/cmake\ -E\ make_directory\ /home/adam/Robotic-Treasure-Hunt-master/build/test_results/husky_bringup /opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check\ -o\ '/home/adam/Robotic-Treasure-Hunt-master/build/test_results/husky_bringup/roslaunch-check_launch.xml'\ '/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_bringup/launch'\ 
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_bringup && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/adam/treasure_bot/build/test_results/husky_bringup/roslaunch-check_launch.xml /usr/bin/cmake\ -E\ make_directory\ /home/adam/treasure_bot/build/test_results/husky_bringup /opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check\ -o\ '/home/adam/treasure_bot/build/test_results/husky_bringup/roslaunch-check_launch.xml'\ '/home/adam/treasure_bot/src/husky-kinetic-devel/husky_bringup/launch'\ 
 
 run_tests_husky_bringup_roslaunch-check_launch: husky-kinetic-devel/husky_bringup/CMakeFiles/run_tests_husky_bringup_roslaunch-check_launch
 run_tests_husky_bringup_roslaunch-check_launch: husky-kinetic-devel/husky_bringup/CMakeFiles/run_tests_husky_bringup_roslaunch-check_launch.dir/build.make
@@ -67,10 +67,10 @@ husky-kinetic-devel/husky_bringup/CMakeFiles/run_tests_husky_bringup_roslaunch-c
 .PHONY : husky-kinetic-devel/husky_bringup/CMakeFiles/run_tests_husky_bringup_roslaunch-check_launch.dir/build
 
 husky-kinetic-devel/husky_bringup/CMakeFiles/run_tests_husky_bringup_roslaunch-check_launch.dir/clean:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_bringup && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_husky_bringup_roslaunch-check_launch.dir/cmake_clean.cmake
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_bringup && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_husky_bringup_roslaunch-check_launch.dir/cmake_clean.cmake
 .PHONY : husky-kinetic-devel/husky_bringup/CMakeFiles/run_tests_husky_bringup_roslaunch-check_launch.dir/clean
 
 husky-kinetic-devel/husky_bringup/CMakeFiles/run_tests_husky_bringup_roslaunch-check_launch.dir/depend:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/Robotic-Treasure-Hunt-master/src /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_bringup /home/adam/Robotic-Treasure-Hunt-master/build /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_bringup /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_bringup/CMakeFiles/run_tests_husky_bringup_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/treasure_bot/src /home/adam/treasure_bot/src/husky-kinetic-devel/husky_bringup /home/adam/treasure_bot/build /home/adam/treasure_bot/build/husky-kinetic-devel/husky_bringup /home/adam/treasure_bot/build/husky-kinetic-devel/husky_bringup/CMakeFiles/run_tests_husky_bringup_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : husky-kinetic-devel/husky_bringup/CMakeFiles/run_tests_husky_bringup_roslaunch-check_launch.dir/depend
 

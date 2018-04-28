@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/adam/Robotic-Treasure-Hunt-master/src/treasure_bot/src/goalInput.cpp
+/home/adam/treasure_bot/src/treasure_bot/src/goalInput.cpp
 ros/ros.h
 -
 geometry_msgs/Pose2D.h

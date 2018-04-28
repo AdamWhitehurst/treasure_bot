@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/src/logical_camera_plugin.cpp" "/home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.o"
+  "/home/adam/treasure_bot/src/logical_camera_plugin/src/logical_camera_plugin.cpp" "/home/adam/treasure_bot/build/logical_camera_plugin/CMakeFiles/logical_camera_plugin.dir/src/logical_camera_plugin.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,9 +17,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/adam/Robotic-Treasure-Hunt-master/devel/include"
-  "/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/$GAZEBO_LIBRARY_DIRS}"
-  "/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include"
+  "/home/adam/treasure_bot/devel/include"
+  "/home/adam/treasure_bot/src/logical_camera_plugin/$GAZEBO_LIBRARY_DIRS}"
+  "/home/adam/treasure_bot/src/logical_camera_plugin/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/gazebo-7"
@@ -28,10 +28,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/OGRE"
   "/usr/include/OGRE/Terrain"
   "/usr/include/OGRE/Paging"
-  "/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include_directories"
-  "/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/("
-  "/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/models"
-  "/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/)"
+  "/home/adam/treasure_bot/src/logical_camera_plugin/include_directories"
+  "/home/adam/treasure_bot/src/logical_camera_plugin/("
+  "/home/adam/treasure_bot/src/logical_camera_plugin/models"
+  "/home/adam/treasure_bot/src/logical_camera_plugin/)"
   )
 
 # Targets to which this target links.

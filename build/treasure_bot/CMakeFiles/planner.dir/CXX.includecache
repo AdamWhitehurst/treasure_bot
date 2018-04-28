@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/adam/Robotic-Treasure-Hunt-master/src/treasure_bot/src/planner.cpp
+/home/adam/treasure_bot/src/treasure_bot/src/planner.cpp
 ros/ros.h
 -
 stdlib.h

@@ -6,23 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/adam/Robotic-Treasure-Hunt-master/devel/include/logical_camera_plugin/logicalImage.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
-/home/adam/Robotic-Treasure-Hunt-master/src/treasure_bot/src/treasureOutput.cpp
+/home/adam/treasure_bot/src/treasure_bot/src/treasureOutput.cpp
 ros/ros.h
 -
 string

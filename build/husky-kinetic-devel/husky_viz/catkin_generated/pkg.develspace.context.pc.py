@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "husky_viz"
-PROJECT_SPACE_DIR = "/home/adam/Robotic-Treasure-Hunt-master/devel"
+PROJECT_SPACE_DIR = "/home/adam/treasure_bot/devel"
 PROJECT_VERSION = "0.2.2"

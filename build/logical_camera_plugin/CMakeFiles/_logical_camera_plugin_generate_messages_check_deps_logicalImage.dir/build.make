@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Robotic-Treasure-Hunt-master/src
+CMAKE_SOURCE_DIR = /home/adam/treasure_bot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
+CMAKE_BINARY_DIR = /home/adam/treasure_bot/build
 
 # Utility rule file for _logical_camera_plugin_generate_messages_check_deps_logicalImage.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
 include logical_camera_plugin/CMakeFiles/_logical_camera_plugin_generate_messages_check_deps_logicalImage.dir/progress.make
 
 logical_camera_plugin/CMakeFiles/_logical_camera_plugin_generate_messages_check_deps_logicalImage:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py logical_camera_plugin /home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/msg/logicalImage.msg 
+	cd /home/adam/treasure_bot/build/logical_camera_plugin && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py logical_camera_plugin /home/adam/treasure_bot/src/logical_camera_plugin/msg/logicalImage.msg 
 
 _logical_camera_plugin_generate_messages_check_deps_logicalImage: logical_camera_plugin/CMakeFiles/_logical_camera_plugin_generate_messages_check_deps_logicalImage
 _logical_camera_plugin_generate_messages_check_deps_logicalImage: logical_camera_plugin/CMakeFiles/_logical_camera_plugin_generate_messages_check_deps_logicalImage.dir/build.make
@@ -67,10 +67,10 @@ logical_camera_plugin/CMakeFiles/_logical_camera_plugin_generate_messages_check_
 .PHONY : logical_camera_plugin/CMakeFiles/_logical_camera_plugin_generate_messages_check_deps_logicalImage.dir/build
 
 logical_camera_plugin/CMakeFiles/_logical_camera_plugin_generate_messages_check_deps_logicalImage.dir/clean:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin && $(CMAKE_COMMAND) -P CMakeFiles/_logical_camera_plugin_generate_messages_check_deps_logicalImage.dir/cmake_clean.cmake
+	cd /home/adam/treasure_bot/build/logical_camera_plugin && $(CMAKE_COMMAND) -P CMakeFiles/_logical_camera_plugin_generate_messages_check_deps_logicalImage.dir/cmake_clean.cmake
 .PHONY : logical_camera_plugin/CMakeFiles/_logical_camera_plugin_generate_messages_check_deps_logicalImage.dir/clean
 
 logical_camera_plugin/CMakeFiles/_logical_camera_plugin_generate_messages_check_deps_logicalImage.dir/depend:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/Robotic-Treasure-Hunt-master/src /home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin /home/adam/Robotic-Treasure-Hunt-master/build /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin/CMakeFiles/_logical_camera_plugin_generate_messages_check_deps_logicalImage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/treasure_bot/src /home/adam/treasure_bot/src/logical_camera_plugin /home/adam/treasure_bot/build /home/adam/treasure_bot/build/logical_camera_plugin /home/adam/treasure_bot/build/logical_camera_plugin/CMakeFiles/_logical_camera_plugin_generate_messages_check_deps_logicalImage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : logical_camera_plugin/CMakeFiles/_logical_camera_plugin_generate_messages_check_deps_logicalImage.dir/depend
 

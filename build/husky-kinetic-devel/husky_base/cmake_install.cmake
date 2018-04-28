@@ -1,8 +1,8 @@
-# Install script for directory: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base
+# Install script for directory: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/adam/Robotic-Treasure-Hunt-master/install")
+  set(CMAKE_INSTALL_PREFIX "/home/adam/treasure_bot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base/catkin_generated/installspace/husky_base.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_base/catkin_generated/installspace/husky_base.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_base/cmake" TYPE FILE FILES
-    "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base/catkin_generated/installspace/husky_baseConfig.cmake"
-    "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base/catkin_generated/installspace/husky_baseConfig-version.cmake"
+    "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_base/catkin_generated/installspace/husky_baseConfig.cmake"
+    "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_base/catkin_generated/installspace/husky_baseConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_base" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_base" TYPE FILE FILES "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhorizon_legacy.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/adam/treasure_bot/devel/lib/libhorizon_legacy.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhorizon_legacy.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhorizon_legacy.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -70,12 +70,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/husky_base/husky_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/husky_base" TYPE EXECUTABLE FILES "/home/adam/Robotic-Treasure-Hunt-master/devel/lib/husky_base/husky_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/husky_base" TYPE EXECUTABLE FILES "/home/adam/treasure_bot/devel/lib/husky_base/husky_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/husky_base/husky_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/husky_base/husky_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/husky_base/husky_node"
-         OLD_RPATH "/home/adam/Robotic-Treasure-Hunt-master/devel/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/adam/treasure_bot/devel/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/husky_base/husky_node")
@@ -84,13 +84,13 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/husky_base" TYPE DIRECTORY FILES "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/include/husky_base/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/husky_base" TYPE DIRECTORY FILES "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/include/husky_base/")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_base" TYPE DIRECTORY FILES
-    "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/launch"
-    "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/config"
+    "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/launch"
+    "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/config"
     )
 endif()
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/logical_camera_plugin_generate_messages_nodejs"
-  "/home/adam/Robotic-Treasure-Hunt-master/devel/share/gennodejs/ros/logical_camera_plugin/msg/logicalImage.js"
+  "/home/adam/treasure_bot/devel/share/gennodejs/ros/logical_camera_plugin/msg/logicalImage.js"
 )
 
 # Per-language clean rules from dependency scanning.

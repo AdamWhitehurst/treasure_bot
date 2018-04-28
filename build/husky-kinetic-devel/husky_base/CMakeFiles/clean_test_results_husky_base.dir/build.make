@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Robotic-Treasure-Hunt-master/src
+CMAKE_SOURCE_DIR = /home/adam/treasure_bot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
+CMAKE_BINARY_DIR = /home/adam/treasure_bot/build
 
 # Utility rule file for clean_test_results_husky_base.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
 include husky-kinetic-devel/husky_base/CMakeFiles/clean_test_results_husky_base.dir/progress.make
 
 husky-kinetic-devel/husky_base/CMakeFiles/clean_test_results_husky_base:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/adam/Robotic-Treasure-Hunt-master/build/test_results/husky_base
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/adam/treasure_bot/build/test_results/husky_base
 
 clean_test_results_husky_base: husky-kinetic-devel/husky_base/CMakeFiles/clean_test_results_husky_base
 clean_test_results_husky_base: husky-kinetic-devel/husky_base/CMakeFiles/clean_test_results_husky_base.dir/build.make
@@ -67,10 +67,10 @@ husky-kinetic-devel/husky_base/CMakeFiles/clean_test_results_husky_base.dir/buil
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/clean_test_results_husky_base.dir/build
 
 husky-kinetic-devel/husky_base/CMakeFiles/clean_test_results_husky_base.dir/clean:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_husky_base.dir/cmake_clean.cmake
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_husky_base.dir/cmake_clean.cmake
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/clean_test_results_husky_base.dir/clean
 
 husky-kinetic-devel/husky_base/CMakeFiles/clean_test_results_husky_base.dir/depend:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/Robotic-Treasure-Hunt-master/src /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base /home/adam/Robotic-Treasure-Hunt-master/build /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base/CMakeFiles/clean_test_results_husky_base.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/treasure_bot/src /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base /home/adam/treasure_bot/build /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base/CMakeFiles/clean_test_results_husky_base.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/clean_test_results_husky_base.dir/depend
 

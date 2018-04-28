@@ -1,8 +1,8 @@
-prefix=/home/adam/Robotic-Treasure-Hunt-master/devel
+prefix=/home/adam/treasure_bot/devel
 
 Name: husky_navigation
 Description: Description of husky_navigation
 Version: 0.2.7
 Cflags: 
-Libs: -L/home/adam/Robotic-Treasure-Hunt-master/devel/lib 
+Libs: -L/home/adam/treasure_bot/devel/lib 
 Requires: 

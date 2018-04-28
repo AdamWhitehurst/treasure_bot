@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Robotic-Treasure-Hunt-master/src
+CMAKE_SOURCE_DIR = /home/adam/treasure_bot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
+CMAKE_BINARY_DIR = /home/adam/treasure_bot/build
 
 # Include any dependencies generated for this target.
 include husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/depend.make
@@ -58,17 +58,17 @@ include husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/progress.ma
 include husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/flags.make
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/flags.make
-husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/crc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/crc.cpp
+husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/crc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o -c /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/crc.cpp
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/crc.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.i
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/crc.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.i
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/crc.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.s
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/crc.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.s
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o.requires:
 
@@ -82,17 +82,17 @@ husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/
 
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/flags.make
-husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Logger.cpp
+husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o -c /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Logger.cpp
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Logger.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.i
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Logger.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.i
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Logger.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.s
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Logger.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.s
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o.requires:
 
@@ -106,17 +106,17 @@ husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/
 
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/flags.make
-husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message.cpp
+husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o -c /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message.cpp
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.i
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.i
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.s
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.s
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o.requires:
 
@@ -130,17 +130,17 @@ husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/
 
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/flags.make
-husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_data.cpp
+husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o -c /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_data.cpp
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_data.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.i
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_data.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.i
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_data.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.s
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_data.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.s
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o.requires:
 
@@ -154,17 +154,17 @@ husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/
 
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/flags.make
-husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_request.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_request.cpp
+husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o -c /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_request.cpp
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_request.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.i
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_request.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.i
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_request.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.s
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_request.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.s
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o.requires:
 
@@ -178,17 +178,17 @@ husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/
 
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/flags.make
-husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_cmd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_cmd.cpp
+husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_cmd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o -c /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_cmd.cpp
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_cmd.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.i
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_cmd.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.i
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_cmd.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.s
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Message_cmd.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.s
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o.requires:
 
@@ -202,17 +202,17 @@ husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/
 
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/flags.make
-husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Transport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Transport.cpp
+husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Transport.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o -c /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Transport.cpp
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Transport.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.i
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Transport.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.i
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Transport.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.s
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Transport.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.s
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o.requires:
 
@@ -226,17 +226,17 @@ husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/
 
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/flags.make
-husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Number.cpp
+husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o -c /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Number.cpp
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Number.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.i
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Number.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.i
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Number.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.s
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/Number.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.s
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o.requires:
 
@@ -250,17 +250,17 @@ husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/
 
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/flags.make
-husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/linux_serial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o -c /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/linux_serial.cpp
+husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/linux_serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o -c /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/linux_serial.cpp
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.i"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/linux_serial.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.i
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/linux_serial.cpp > CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.i
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.s"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/src/horizon_legacy/linux_serial.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.s
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/src/horizon_legacy/linux_serial.cpp -o CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.s
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o.requires:
 
@@ -288,22 +288,22 @@ horizon_legacy_OBJECTS = \
 # External object files for target horizon_legacy
 horizon_legacy_EXTERNAL_OBJECTS =
 
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/build.make
-/home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/Robotic-Treasure-Hunt-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library /home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so"
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/horizon_legacy.dir/link.txt --verbose=$(VERBOSE)
+/home/adam/treasure_bot/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/crc.cpp.o
+/home/adam/treasure_bot/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Logger.cpp.o
+/home/adam/treasure_bot/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message.cpp.o
+/home/adam/treasure_bot/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_data.cpp.o
+/home/adam/treasure_bot/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_request.cpp.o
+/home/adam/treasure_bot/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Message_cmd.cpp.o
+/home/adam/treasure_bot/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Transport.cpp.o
+/home/adam/treasure_bot/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/Number.cpp.o
+/home/adam/treasure_bot/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/src/horizon_legacy/linux_serial.cpp.o
+/home/adam/treasure_bot/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/build.make
+/home/adam/treasure_bot/devel/lib/libhorizon_legacy.so: husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/treasure_bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library /home/adam/treasure_bot/devel/lib/libhorizon_legacy.so"
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/horizon_legacy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/build: /home/adam/Robotic-Treasure-Hunt-master/devel/lib/libhorizon_legacy.so
+husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/build: /home/adam/treasure_bot/devel/lib/libhorizon_legacy.so
 
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/build
 
@@ -320,10 +320,10 @@ husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/requires: husky-kin
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/requires
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/clean:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && $(CMAKE_COMMAND) -P CMakeFiles/horizon_legacy.dir/cmake_clean.cmake
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && $(CMAKE_COMMAND) -P CMakeFiles/horizon_legacy.dir/cmake_clean.cmake
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/clean
 
 husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/depend:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/Robotic-Treasure-Hunt-master/src /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base /home/adam/Robotic-Treasure-Hunt-master/build /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/treasure_bot/src /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base /home/adam/treasure_bot/build /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/horizon_legacy.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin
+# Install script for directory: /home/adam/treasure_bot/src/logical_camera_plugin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/adam/Robotic-Treasure-Hunt-master/install")
+  set(CMAKE_INSTALL_PREFIX "/home/adam/treasure_bot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,57 +33,57 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/logical_camera_plugin/msg" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/msg/logicalImage.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/logical_camera_plugin/msg" TYPE FILE FILES "/home/adam/treasure_bot/src/logical_camera_plugin/msg/logicalImage.msg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/logical_camera_plugin/cmake" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin/catkin_generated/installspace/logical_camera_plugin-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/logical_camera_plugin/cmake" TYPE FILE FILES "/home/adam/treasure_bot/build/logical_camera_plugin/catkin_generated/installspace/logical_camera_plugin-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/adam/Robotic-Treasure-Hunt-master/devel/include/logical_camera_plugin")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/adam/treasure_bot/devel/include/logical_camera_plugin")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/adam/Robotic-Treasure-Hunt-master/devel/share/roseus/ros/logical_camera_plugin")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/adam/treasure_bot/devel/share/roseus/ros/logical_camera_plugin")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/adam/Robotic-Treasure-Hunt-master/devel/share/common-lisp/ros/logical_camera_plugin")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/adam/treasure_bot/devel/share/common-lisp/ros/logical_camera_plugin")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/adam/Robotic-Treasure-Hunt-master/devel/share/gennodejs/ros/logical_camera_plugin")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/adam/treasure_bot/devel/share/gennodejs/ros/logical_camera_plugin")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/adam/Robotic-Treasure-Hunt-master/devel/lib/python2.7/dist-packages/logical_camera_plugin")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/adam/treasure_bot/devel/lib/python2.7/dist-packages/logical_camera_plugin")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/adam/Robotic-Treasure-Hunt-master/devel/lib/python2.7/dist-packages/logical_camera_plugin")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/adam/treasure_bot/devel/lib/python2.7/dist-packages/logical_camera_plugin")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin/catkin_generated/installspace/logical_camera_plugin.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adam/treasure_bot/build/logical_camera_plugin/catkin_generated/installspace/logical_camera_plugin.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/logical_camera_plugin/cmake" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin/catkin_generated/installspace/logical_camera_plugin-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/logical_camera_plugin/cmake" TYPE FILE FILES "/home/adam/treasure_bot/build/logical_camera_plugin/catkin_generated/installspace/logical_camera_plugin-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/logical_camera_plugin/cmake" TYPE FILE FILES
-    "/home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin/catkin_generated/installspace/logical_camera_pluginConfig.cmake"
-    "/home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin/catkin_generated/installspace/logical_camera_pluginConfig-version.cmake"
+    "/home/adam/treasure_bot/build/logical_camera_plugin/catkin_generated/installspace/logical_camera_pluginConfig.cmake"
+    "/home/adam/treasure_bot/build/logical_camera_plugin/catkin_generated/installspace/logical_camera_pluginConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/logical_camera_plugin" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/logical_camera_plugin" TYPE FILE FILES "/home/adam/treasure_bot/src/logical_camera_plugin/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/logical_camera_plugin/models" TYPE DIRECTORY FILES "/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/models/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/logical_camera_plugin/models" TYPE DIRECTORY FILES "/home/adam/treasure_bot/src/logical_camera_plugin/models/")
 endif()
 

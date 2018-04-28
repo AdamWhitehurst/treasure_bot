@@ -1,8 +1,8 @@
-# Install script for directory: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_msgs
+# Install script for directory: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/adam/Robotic-Treasure-Hunt-master/install")
+  set(CMAKE_INSTALL_PREFIX "/home/adam/treasure_bot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,53 +33,53 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_msgs/msg" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_msgs/msg/HuskyStatus.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_msgs/msg" TYPE FILE FILES "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_msgs/msg/HuskyStatus.msg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_msgs/cmake" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_msgs/catkin_generated/installspace/husky_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_msgs/cmake" TYPE FILE FILES "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_msgs/catkin_generated/installspace/husky_msgs-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/adam/Robotic-Treasure-Hunt-master/devel/include/husky_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/adam/treasure_bot/devel/include/husky_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/adam/Robotic-Treasure-Hunt-master/devel/share/roseus/ros/husky_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/adam/treasure_bot/devel/share/roseus/ros/husky_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/adam/Robotic-Treasure-Hunt-master/devel/share/common-lisp/ros/husky_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/adam/treasure_bot/devel/share/common-lisp/ros/husky_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/adam/Robotic-Treasure-Hunt-master/devel/share/gennodejs/ros/husky_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/adam/treasure_bot/devel/share/gennodejs/ros/husky_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/adam/Robotic-Treasure-Hunt-master/devel/lib/python2.7/dist-packages/husky_msgs")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/adam/treasure_bot/devel/lib/python2.7/dist-packages/husky_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/adam/Robotic-Treasure-Hunt-master/devel/lib/python2.7/dist-packages/husky_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/adam/treasure_bot/devel/lib/python2.7/dist-packages/husky_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_msgs/catkin_generated/installspace/husky_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_msgs/catkin_generated/installspace/husky_msgs.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_msgs/cmake" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_msgs/catkin_generated/installspace/husky_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_msgs/cmake" TYPE FILE FILES "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_msgs/catkin_generated/installspace/husky_msgs-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_msgs/cmake" TYPE FILE FILES
-    "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_msgs/catkin_generated/installspace/husky_msgsConfig.cmake"
-    "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_msgs/catkin_generated/installspace/husky_msgsConfig-version.cmake"
+    "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_msgs/catkin_generated/installspace/husky_msgsConfig.cmake"
+    "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_msgs/catkin_generated/installspace/husky_msgsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_msgs" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_msgs" TYPE FILE FILES "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_msgs/package.xml")
 endif()
 

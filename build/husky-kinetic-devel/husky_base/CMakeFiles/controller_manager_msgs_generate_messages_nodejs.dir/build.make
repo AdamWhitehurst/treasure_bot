@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Robotic-Treasure-Hunt-master/src
+CMAKE_SOURCE_DIR = /home/adam/treasure_bot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
+CMAKE_BINARY_DIR = /home/adam/treasure_bot/build
 
 # Utility rule file for controller_manager_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ husky-kinetic-devel/husky_base/CMakeFiles/controller_manager_msgs_generate_messa
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/build
 
 husky-kinetic-devel/husky_base/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base && $(CMAKE_COMMAND) -P CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base && $(CMAKE_COMMAND) -P CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/clean
 
 husky-kinetic-devel/husky_base/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/Robotic-Treasure-Hunt-master/src /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base /home/adam/Robotic-Treasure-Hunt-master/build /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_base/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/treasure_bot/src /home/adam/treasure_bot/src/husky-kinetic-devel/husky_base /home/adam/treasure_bot/build /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base /home/adam/treasure_bot/build/husky-kinetic-devel/husky_base/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : husky-kinetic-devel/husky_base/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/depend
 

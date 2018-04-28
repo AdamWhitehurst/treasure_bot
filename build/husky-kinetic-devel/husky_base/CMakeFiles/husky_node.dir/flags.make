@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"husky_base\"
 
-CXX_INCLUDES = -I/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_base/include -I/home/adam/Robotic-Treasure-Hunt-master/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/adam/treasure_bot/src/husky-kinetic-devel/husky_base/include -I/home/adam/treasure_bot/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

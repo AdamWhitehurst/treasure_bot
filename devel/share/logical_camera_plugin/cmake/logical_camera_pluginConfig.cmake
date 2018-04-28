@@ -67,14 +67,14 @@ set(logical_camera_plugin_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(logical_camera_plugin_SOURCE_PREFIX /home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin)
-  set(logical_camera_plugin_DEVEL_PREFIX /home/adam/Robotic-Treasure-Hunt-master/devel)
+  set(logical_camera_plugin_SOURCE_PREFIX /home/adam/treasure_bot/src/logical_camera_plugin)
+  set(logical_camera_plugin_DEVEL_PREFIX /home/adam/treasure_bot/devel)
   set(logical_camera_plugin_INSTALL_PREFIX "")
   set(logical_camera_plugin_PREFIX ${logical_camera_plugin_DEVEL_PREFIX})
 else()
   set(logical_camera_plugin_SOURCE_PREFIX "")
   set(logical_camera_plugin_DEVEL_PREFIX "")
-  set(logical_camera_plugin_INSTALL_PREFIX /home/adam/Robotic-Treasure-Hunt-master/install)
+  set(logical_camera_plugin_INSTALL_PREFIX /home/adam/treasure_bot/install)
   set(logical_camera_plugin_PREFIX ${logical_camera_plugin_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(logical_camera_plugin_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/adam/Robotic-Treasure-Hunt-master/devel/include;/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include " STREQUAL " ")
+if(NOT "/home/adam/treasure_bot/devel/include;/home/adam/treasure_bot/src/logical_camera_plugin/include " STREQUAL " ")
   set(logical_camera_plugin_INCLUDE_DIRS "")
-  set(_include_dirs "/home/adam/Robotic-Treasure-Hunt-master/devel/include;/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/include")
+  set(_include_dirs "/home/adam/treasure_bot/devel/include;/home/adam/treasure_bot/src/logical_camera_plugin/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/adam/Robotic-Treasure-Hunt-master/devel/include;/home/adam/Robotic
         message(FATAL_ERROR "Project 'logical_camera_plugin' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'logical_camera_plugin' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'logical_camera_plugin' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/adam/treasure_bot/src/logical_camera_plugin/${idir}'.  ${_report}")
     endif()
     _list_append_unique(logical_camera_plugin_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/adam/Robotic-Treasure-Hunt-master/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/adam/treasure_bot/devel/lib;/home/adam/treasure_bot/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

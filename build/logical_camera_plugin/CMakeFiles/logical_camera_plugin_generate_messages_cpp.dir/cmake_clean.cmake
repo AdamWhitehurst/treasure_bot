@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/logical_camera_plugin_generate_messages_cpp"
-  "/home/adam/Robotic-Treasure-Hunt-master/devel/include/logical_camera_plugin/logicalImage.h"
+  "/home/adam/treasure_bot/devel/include/logical_camera_plugin/logicalImage.h"
 )
 
 # Per-language clean rules from dependency scanning.

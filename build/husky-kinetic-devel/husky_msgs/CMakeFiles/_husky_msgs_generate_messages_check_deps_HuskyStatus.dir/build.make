@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Robotic-Treasure-Hunt-master/src
+CMAKE_SOURCE_DIR = /home/adam/treasure_bot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
+CMAKE_BINARY_DIR = /home/adam/treasure_bot/build
 
 # Utility rule file for _husky_msgs_generate_messages_check_deps_HuskyStatus.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
 include husky-kinetic-devel/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus.dir/progress.make
 
 husky-kinetic-devel/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py husky_msgs /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_msgs/msg/HuskyStatus.msg std_msgs/Header
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py husky_msgs /home/adam/treasure_bot/src/husky-kinetic-devel/husky_msgs/msg/HuskyStatus.msg std_msgs/Header
 
 _husky_msgs_generate_messages_check_deps_HuskyStatus: husky-kinetic-devel/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus
 _husky_msgs_generate_messages_check_deps_HuskyStatus: husky-kinetic-devel/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus.dir/build.make
@@ -67,10 +67,10 @@ husky-kinetic-devel/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_de
 .PHONY : husky-kinetic-devel/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus.dir/build
 
 husky-kinetic-devel/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus.dir/clean:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus.dir/cmake_clean.cmake
+	cd /home/adam/treasure_bot/build/husky-kinetic-devel/husky_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus.dir/cmake_clean.cmake
 .PHONY : husky-kinetic-devel/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus.dir/clean
 
 husky-kinetic-devel/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus.dir/depend:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/Robotic-Treasure-Hunt-master/src /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_msgs /home/adam/Robotic-Treasure-Hunt-master/build /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_msgs /home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/treasure_bot/src /home/adam/treasure_bot/src/husky-kinetic-devel/husky_msgs /home/adam/treasure_bot/build /home/adam/treasure_bot/build/husky-kinetic-devel/husky_msgs /home/adam/treasure_bot/build/husky-kinetic-devel/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : husky-kinetic-devel/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus.dir/depend
 

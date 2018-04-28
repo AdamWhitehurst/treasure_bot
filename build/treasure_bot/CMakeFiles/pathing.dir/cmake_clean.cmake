@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pathing.dir/src/pathing.cpp.o"
-  "/home/adam/Robotic-Treasure-Hunt-master/devel/lib/treasure_bot/pathing.pdb"
-  "/home/adam/Robotic-Treasure-Hunt-master/devel/lib/treasure_bot/pathing"
+  "/home/adam/treasure_bot/devel/lib/treasure_bot/pathing.pdb"
+  "/home/adam/treasure_bot/devel/lib/treasure_bot/pathing"
 )
 
 # Per-language clean rules from dependency scanning.

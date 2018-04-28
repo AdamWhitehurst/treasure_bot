@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Robotic-Treasure-Hunt-master/src
+CMAKE_SOURCE_DIR = /home/adam/treasure_bot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/Robotic-Treasure-Hunt-master/build
+CMAKE_BINARY_DIR = /home/adam/treasure_bot/build
 
 # Utility rule file for logical_camera_plugin_gennodejs.
 
@@ -63,10 +63,10 @@ logical_camera_plugin/CMakeFiles/logical_camera_plugin_gennodejs.dir/build: logi
 .PHONY : logical_camera_plugin/CMakeFiles/logical_camera_plugin_gennodejs.dir/build
 
 logical_camera_plugin/CMakeFiles/logical_camera_plugin_gennodejs.dir/clean:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin && $(CMAKE_COMMAND) -P CMakeFiles/logical_camera_plugin_gennodejs.dir/cmake_clean.cmake
+	cd /home/adam/treasure_bot/build/logical_camera_plugin && $(CMAKE_COMMAND) -P CMakeFiles/logical_camera_plugin_gennodejs.dir/cmake_clean.cmake
 .PHONY : logical_camera_plugin/CMakeFiles/logical_camera_plugin_gennodejs.dir/clean
 
 logical_camera_plugin/CMakeFiles/logical_camera_plugin_gennodejs.dir/depend:
-	cd /home/adam/Robotic-Treasure-Hunt-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/Robotic-Treasure-Hunt-master/src /home/adam/Robotic-Treasure-Hunt-master/src/logical_camera_plugin /home/adam/Robotic-Treasure-Hunt-master/build /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin /home/adam/Robotic-Treasure-Hunt-master/build/logical_camera_plugin/CMakeFiles/logical_camera_plugin_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adam/treasure_bot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/treasure_bot/src /home/adam/treasure_bot/src/logical_camera_plugin /home/adam/treasure_bot/build /home/adam/treasure_bot/build/logical_camera_plugin /home/adam/treasure_bot/build/logical_camera_plugin/CMakeFiles/logical_camera_plugin_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : logical_camera_plugin/CMakeFiles/logical_camera_plugin_gennodejs.dir/depend
 

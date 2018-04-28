@@ -1,8 +1,8 @@
-# Install script for directory: /home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_bringup
+# Install script for directory: /home/adam/treasure_bot/src/husky-kinetic-devel/husky_bringup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/adam/Robotic-Treasure-Hunt-master/install")
+  set(CMAKE_INSTALL_PREFIX "/home/adam/treasure_bot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,37 +33,37 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_bringup/catkin_generated/installspace/husky_bringup.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_bringup/catkin_generated/installspace/husky_bringup.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_bringup/cmake" TYPE FILE FILES
-    "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_bringup/catkin_generated/installspace/husky_bringupConfig.cmake"
-    "/home/adam/Robotic-Treasure-Hunt-master/build/husky-kinetic-devel/husky_bringup/catkin_generated/installspace/husky_bringupConfig-version.cmake"
+    "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_bringup/catkin_generated/installspace/husky_bringupConfig.cmake"
+    "/home/adam/treasure_bot/build/husky-kinetic-devel/husky_bringup/catkin_generated/installspace/husky_bringupConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_bringup" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_bringup/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_bringup" TYPE FILE FILES "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_bringup/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/catkin/profile.d" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_bringup/env-hooks/50.husky_find_mag_config.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/catkin/profile.d" TYPE FILE FILES "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_bringup/env-hooks/50.husky_find_mag_config.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/husky_bringup" TYPE PROGRAM FILES
-    "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_bringup/scripts/install"
-    "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_bringup/scripts/calibrate_compass"
-    "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_bringup/scripts/compute_calibration"
+    "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_bringup/scripts/install"
+    "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_bringup/scripts/calibrate_compass"
+    "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_bringup/scripts/compute_calibration"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_bringup" TYPE DIRECTORY FILES
-    "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_bringup/launch"
-    "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_bringup/udev"
-    "/home/adam/Robotic-Treasure-Hunt-master/src/husky-kinetic-devel/husky_bringup/config"
+    "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_bringup/launch"
+    "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_bringup/udev"
+    "/home/adam/treasure_bot/src/husky-kinetic-devel/husky_bringup/config"
     )
 endif()
 

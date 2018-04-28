@@ -1,8 +1,8 @@
-# Install script for directory: /home/adam/Robotic-Treasure-Hunt-master/src/treasure_bot
+# Install script for directory: /home/adam/treasure_bot/src/treasure_bot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/adam/Robotic-Treasure-Hunt-master/install")
+  set(CMAKE_INSTALL_PREFIX "/home/adam/treasure_bot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/build/treasure_bot/catkin_generated/installspace/treasure_bot.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adam/treasure_bot/build/treasure_bot/catkin_generated/installspace/treasure_bot.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/treasure_bot/cmake" TYPE FILE FILES
-    "/home/adam/Robotic-Treasure-Hunt-master/build/treasure_bot/catkin_generated/installspace/treasure_botConfig.cmake"
-    "/home/adam/Robotic-Treasure-Hunt-master/build/treasure_bot/catkin_generated/installspace/treasure_botConfig-version.cmake"
+    "/home/adam/treasure_bot/build/treasure_bot/catkin_generated/installspace/treasure_botConfig.cmake"
+    "/home/adam/treasure_bot/build/treasure_bot/catkin_generated/installspace/treasure_botConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/treasure_bot" TYPE FILE FILES "/home/adam/Robotic-Treasure-Hunt-master/src/treasure_bot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/treasure_bot" TYPE FILE FILES "/home/adam/treasure_bot/src/treasure_bot/package.xml")
 endif()
 
